@@ -13,7 +13,7 @@ export function Banner() {
       />
 
       <SimpleGrid zIndex="1" columns={2} spacing={10} alignItems="center">
-        <Flex ml="150" mr="50" my="20">
+        <Flex ml={140} mr={50} my={20}>
           <Stack>
             <Text as="h1" color="white" fontSize="36px">
               5 Continentes, <br /> infinitas possibilidades.
@@ -26,7 +26,7 @@ export function Banner() {
           </Stack>
         </Flex>
 
-        <Flex w="100%" mb="-120" justify="flex-end">
+        <Flex w="100%" mb={-120} justify="flex-end">
           <Image
             w="100%"
             maxW="417px"
