@@ -1,4 +1,4 @@
-import { Flex, Divider } from '@chakra-ui/react'
+import { Flex, Divider, Text } from '@chakra-ui/react'
 import { Banner } from 'components/Banner'
 import { Header } from 'components/Header'
 import { SectionTravel } from 'components/SectionTravel'
@@ -9,6 +9,7 @@ export default function Home() {
       <Header />
       <Banner />
       <SectionTravel />
+
       <Flex justify="center">
         <Divider
           w="90px"
@@ -16,6 +17,14 @@ export default function Home() {
           borderColor="blackAlpha.900"
           variant="solid"
         />
+      </Flex>
+
+      <Flex justify="center" mx="auto" my="52px">
+        <Text textAlign="center" fontSize="4xl">
+          Vamos nessa?
+          <br />
+          Então escolha seu continente
+        </Text>
       </Flex>
     </Flex>
   )

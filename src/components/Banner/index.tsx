@@ -15,11 +15,11 @@ export function Banner() {
       <SimpleGrid zIndex="1" columns={2} spacing={10} alignItems="center">
         <Flex ml={140} mr={50} my={20}>
           <Stack>
-            <Text as="h1" color="white" fontSize="36px">
+            <Text as="h1" color="white" fontSize="4xl">
               5 Continentes, <br /> infinitas possibilidades.
             </Text>
 
-            <Text as="h2" color="whiteAlpha.700" fontSize="20px" maxW="524px">
+            <Text as="h2" color="whiteAlpha.700" fontSize="large" maxW="524px">
               Chegou a hora de tirar do papel a viagem que você <br /> sempre
               sonhou.
             </Text>
