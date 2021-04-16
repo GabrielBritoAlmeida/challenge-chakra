@@ -2,6 +2,7 @@ import { Flex, Divider, Text } from '@chakra-ui/react'
 import { Banner } from 'components/Banner'
 import { Header } from 'components/Header'
 import { SectionTravel } from 'components/SectionTravel'
+import { Slide } from 'components/Slide'
 
 export default function Home() {
   return (
@@ -26,6 +27,8 @@ export default function Home() {
           Então escolha seu continente
         </Text>
       </Flex>
+
+      <Slide />
     </Flex>
   )
 }
