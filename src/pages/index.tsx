@@ -4,6 +4,34 @@ import { Header } from 'components/Header'
 import { SectionTravel } from 'components/SectionTravel'
 import { Slide } from 'components/Slide'
 
+const arrMockContinent = [
+  {
+    title: 'Europa',
+    subtitle: 'O continente mais antigo',
+    image: '/images/continentes/europa.png'
+  },
+  {
+    title: 'Africa',
+    subtitle: 'O continente mais antigo',
+    image: '/images/continentes/europa.png'
+  },
+  {
+    title: 'América',
+    subtitle: 'O continente mais antigo',
+    image: '/images/continentes/europa.png'
+  },
+  {
+    title: 'Ásia',
+    subtitle: 'O continente mais antigo',
+    image: '/images/continentes/europa.png'
+  },
+  {
+    title: 'Oceania',
+    subtitle: 'O continente mais antigo',
+    image: '/images/continentes/europa.png'
+  }
+]
+
 export default function Home() {
   return (
     <Flex w="100vw" h="100%" flexDirection="column" pb="60px">
@@ -28,7 +56,7 @@ export default function Home() {
         </Text>
       </Flex>
 
-      <Slide />
+      <Slide arrContinent={arrMockContinent} />
     </Flex>
   )
 }
