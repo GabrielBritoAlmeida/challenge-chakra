@@ -6,7 +6,7 @@ import { Slide } from 'components/Slide'
 
 export default function Home() {
   return (
-    <Flex w="100vw" h="100vh" flexDirection="column">
+    <Flex w="100vw" h="100%" flexDirection="column" pb="60px">
       <Header />
       <Banner />
       <SectionTravel />
