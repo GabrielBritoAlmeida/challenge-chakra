@@ -13,22 +13,22 @@ const arrMockContinent = [
   {
     title: 'Africa',
     subtitle: 'O continente mais antigo',
-    image: '/images/continentes/europa.png'
+    image: '/images/continentes/africa.jpg'
   },
   {
     title: 'América',
     subtitle: 'O continente mais antigo',
-    image: '/images/continentes/europa.png'
+    image: '/images/continentes/america.jpg'
   },
   {
     title: 'Ásia',
     subtitle: 'O continente mais antigo',
-    image: '/images/continentes/europa.png'
+    image: '/images/continentes/asia.jpg'
   },
   {
     title: 'Oceania',
     subtitle: 'O continente mais antigo',
-    image: '/images/continentes/europa.png'
+    image: '/images/continentes/oceania.jpg'
   }
 ]
 
@@ -56,7 +56,9 @@ export default function Home() {
         </Text>
       </Flex>
 
-      <Slide arrContinent={arrMockContinent} />
+      <Flex justify="center" px="100px">
+        <Slide arrContinent={arrMockContinent} />
+      </Flex>
     </Flex>
   )
 }

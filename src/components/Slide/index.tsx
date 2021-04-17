@@ -28,6 +28,7 @@ export function Slide({ arrContinent }: SlideProps) {
         position="relative"
       >
         <Image
+          objectFit="cover"
           position="absolute"
           src={item.image}
           alt={`Imagem do continente ${item.title}, com texto ${item.title} ${item.subtitle}`}
