@@ -1,21 +1,10 @@
 import { Flex } from '@chakra-ui/react'
-
-import SwiperCore, {
-  Navigation,
-  Pagination,
-  A11y,
-  Autoplay,
-  SwiperOptions
-} from 'swiper'
-
+import SwiperCore, { Navigation, Pagination, A11y, Autoplay } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/swiper-bundle.min.css'
-import 'swiper/components/navigation'
 
 SwiperCore.use([Navigation, Pagination, A11y, Autoplay])
-
-import styles from './styles.module.css'
 
 export function Slide() {
   return (
