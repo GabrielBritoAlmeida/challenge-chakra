@@ -1,6 +1,18 @@
-import { Image, Flex, Text, Stack, SimpleGrid } from '@chakra-ui/react'
+import {
+  Image,
+  Flex,
+  Text,
+  Stack,
+  SimpleGrid,
+  useBreakpointValue
+} from '@chakra-ui/react'
 
 export function Banner() {
+  const isWideVersion = useBreakpointValue({
+    base: true,
+    md: false
+  })
+
   return (
     <Flex w="100%" h="335px" maxH="335px" position="relative">
       <Image
@@ -14,7 +26,7 @@ export function Banner() {
 
       <SimpleGrid
         zIndex="1"
-        columns={2}
+        columns={isWideVersion ? 1 : 2}
         flex="1"
         justifyContent="space-between"
       >
@@ -31,14 +43,16 @@ export function Banner() {
           </Stack>
         </Flex>
 
-        <Flex flex="1" align="center" justify="center" p="16px">
-          <Image
-            mb={-120}
-            objectFit="cover"
-            src="/images/airplane.svg"
-            alt="background, imagem do céu escuro com estrelas"
-          />
-        </Flex>
+        {!isWideVersion && (
+          <Flex flex="1" align="center" justify="center" p="16px">
+            <Image
+              mb={-120}
+              objectFit="cover"
+              src="/images/airplane.svg"
+              alt="background, imagem do céu escuro com estrelas"
+            />
+          </Flex>
+        )}
       </SimpleGrid>
     </Flex>
   )

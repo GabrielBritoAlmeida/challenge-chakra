@@ -12,22 +12,22 @@ const arrMockContinent = [
   },
   {
     title: 'Africa',
-    subtitle: 'O continente mais antigo',
+    subtitle: 'Se apaixone pela natureza.',
     image: '/images/continentes/africa.jpg'
   },
   {
     title: 'América',
-    subtitle: 'O continente mais antigo',
+    subtitle: 'Terra de muitos povos.',
     image: '/images/continentes/america.jpg'
   },
   {
     title: 'Ásia',
-    subtitle: 'O continente mais antigo',
+    subtitle: 'Cultura maravilhosa.',
     image: '/images/continentes/asia.jpg'
   },
   {
     title: 'Oceania',
-    subtitle: 'O continente mais antigo',
+    subtitle: 'Se apaixone por esse clima.',
     image: '/images/continentes/oceania.jpg'
   }
 ]

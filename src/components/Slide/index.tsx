@@ -20,8 +20,8 @@ export function Slide({ arrContinent }: SlideProps) {
   const continent = arrContinent.map((item) => (
     <SwiperSlide key={item.title}>
       <Flex
-        w={['100%', '1240px']}
-        h={['100%', '450px']}
+        w="100%"
+        h="100%"
         bg="gray.400"
         align="center"
         justify="center"
