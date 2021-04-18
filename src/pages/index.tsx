@@ -34,7 +34,7 @@ const arrMockContinent = [
 
 export default function Home() {
   return (
-    <Flex w="100vw" h="100%" flexDirection="column" pb="60px">
+    <Flex w="100%" h="100%" flexDirection="column" pb="60px">
       <Header />
       <Banner />
       <SectionTravel />
@@ -56,7 +56,7 @@ export default function Home() {
         </Text>
       </Flex>
 
-      <Flex justify="center" px="100px">
+      <Flex justify="center" px={['20px', '100px']}>
         <Slide arrContinent={arrMockContinent} />
       </Flex>
     </Flex>
