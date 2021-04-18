@@ -2,15 +2,8 @@ import { Flex, Image, HStack } from '@chakra-ui/react'
 
 export function SectionTravel() {
   return (
-    <Flex
-      align="center"
-      justify="center"
-      w="1160px"
-      h="145px"
-      mx="auto"
-      my="90px"
-    >
-      <HStack spacing="130px">
+    <Flex align="center" justify="center" h="145px" mx="20px" my="90px">
+      <HStack spacing={['30px', '130px']} overflowX="auto">
         <Image
           sizes="16%"
           cursor="pointer"
