@@ -56,7 +56,7 @@ export default function Home() {
         </Text>
       </Flex>
 
-      <Flex justify="center" px={['20px', '100px']}>
+      <Flex justify="center" px={['0', '100px']}>
         <Slide arrContinent={arrMockContinent} />
       </Flex>
     </Flex>
