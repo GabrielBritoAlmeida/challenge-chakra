@@ -13,11 +13,11 @@ export function BannerContinent() {
         as="h1"
         color="white"
         fontWeight="bold"
-        fontSize="5xl"
+        fontSize={['3xl', '5xl']}
         position="absolute"
         zIndex="1"
-        left="10%"
-        bottom="10%"
+        left={['40%', '10%']}
+        bottom={['35%', '10%']}
       >
         Europa
       </Text>
