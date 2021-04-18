@@ -12,8 +12,13 @@ export function Banner() {
         alt="background, imagem do céu escuro com estrelas"
       />
 
-      <SimpleGrid zIndex="1" columns={2} spacing={10} alignItems="center">
-        <Flex ml={140} mr={50} my={20}>
+      <SimpleGrid
+        zIndex="1"
+        columns={2}
+        flex="1"
+        justifyContent="space-between"
+      >
+        <Flex flex="1" align="center" justify="center" p="16px">
           <Stack>
             <Text as="h1" color="white" fontSize="4xl">
               5 Continentes, <br /> infinitas possibilidades.
@@ -26,11 +31,9 @@ export function Banner() {
           </Stack>
         </Flex>
 
-        <Flex w="100%" mb={-120} justify="flex-end">
+        <Flex flex="1" align="center" justify="center" p="16px">
           <Image
-            w="100%"
-            maxW="417px"
-            maxH="270px"
+            mb={-120}
             objectFit="cover"
             src="/images/airplane.svg"
             alt="background, imagem do céu escuro com estrelas"
