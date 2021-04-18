@@ -1,6 +1,5 @@
 import { Flex, Divider, Text } from '@chakra-ui/react'
 import { Banner } from 'components/Banner'
-import { Header } from 'components/Header'
 import { SectionTravel } from 'components/SectionTravel'
 import { Slide } from 'components/Slide'
 
@@ -35,7 +34,6 @@ const arrMockContinent = [
 export default function Home() {
   return (
     <Flex w="100%" h="100%" flexDirection="column" pb="60px">
-      <Header />
       <Banner />
       <SectionTravel />
 
@@ -48,8 +46,8 @@ export default function Home() {
         />
       </Flex>
 
-      <Flex justify="center" mx="auto" my="52px">
-        <Text textAlign="center" fontSize="4xl">
+      <Flex justify="center" mx="auto" my={['20px', '52px']}>
+        <Text textAlign="center" fontSize={['2xl', '4xl']}>
           Vamos nessa?
           <br />
           Então escolha seu continente
