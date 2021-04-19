@@ -1,10 +1,11 @@
-import { Box, Stack } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 import { BannerContinent } from 'componentsContinent/BannerContinent'
 import { DescriptionContinent } from 'componentsContinent/DescriptionContinent'
+import { MoreCities } from 'componentsContinent/MoreCities'
 
 export default function Continent() {
   return (
-    <Box>
+    <Box mb="36px">
       <BannerContinent />
 
       <Box mt={['24px', '150px']} px={['16px', '150px']}>
@@ -12,37 +13,7 @@ export default function Continent() {
           <DescriptionContinent />
         </Box>
 
-        <section>
-          <h2>Cidades +100</h2>
-
-          <div>
-            <img src="#londres" alt="londres" />
-            <strong>londres</strong>
-            <span>Reino Unido</span>
-            <img src="#bandeira" alt="bandeira" />
-          </div>
-
-          <div>
-            <img src="#londres" alt="londres" />
-            <strong>londres</strong>
-            <span>Reino Unido</span>
-            <img src="#bandeira" alt="bandeira" />
-          </div>
-
-          <div>
-            <img src="#londres" alt="londres" />
-            <strong>londres</strong>
-            <span>Reino Unido</span>
-            <img src="#bandeira" alt="bandeira" />
-          </div>
-
-          <div>
-            <img src="#londres" alt="londres" />
-            <strong>londres</strong>
-            <span>Reino Unido</span>
-            <img src="#bandeira" alt="bandeira" />
-          </div>
-        </section>
+        <MoreCities />
       </Box>
     </Box>
   )
