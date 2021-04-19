@@ -7,8 +7,8 @@ export default function Continent() {
     <Box>
       <BannerContinent />
 
-      <Box mt="150px" px="150px">
-        <Box mb="80px">
+      <Box mt={['24px', '150px']} px={['16px', '150px']}>
+        <Box mb={['40px', '80px']}>
           <DescriptionContinent />
         </Box>
 
