@@ -1,67 +1,49 @@
+import { Box, Stack } from '@chakra-ui/react'
 import { BannerContinent } from 'componentsContinent/BannerContinent'
+import { DescriptionContinent } from 'componentsContinent/DescriptionContinent'
 
 export default function Continent() {
   return (
-    <div>
+    <Box>
       <BannerContinent />
 
-      <section>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
-          tempora ad voluptate tenetur voluptates laborum nemo explicabo
-          provident eligendi, beatae, dolor pariatur fugiat sint odit expedita
-          omnis eum architecto placeat!
-        </p>
+      <Box mt="150px" px="150px">
+        <Box mb="80px">
+          <DescriptionContinent />
+        </Box>
 
-        <div>
+        <section>
+          <h2>Cidades +100</h2>
+
           <div>
-            50
-            <span>países</span>
+            <img src="#londres" alt="londres" />
+            <strong>londres</strong>
+            <span>Reino Unido</span>
+            <img src="#bandeira" alt="bandeira" />
           </div>
 
           <div>
-            60
-            <span>línguas</span>
+            <img src="#londres" alt="londres" />
+            <strong>londres</strong>
+            <span>Reino Unido</span>
+            <img src="#bandeira" alt="bandeira" />
           </div>
 
           <div>
-            27
-            <span>cidades +100</span>
+            <img src="#londres" alt="londres" />
+            <strong>londres</strong>
+            <span>Reino Unido</span>
+            <img src="#bandeira" alt="bandeira" />
           </div>
-        </div>
-      </section>
 
-      <section>
-        <h2>Cidades +100</h2>
-
-        <div>
-          <img src="#londres" alt="londres" />
-          <strong>londres</strong>
-          <span>Reino Unido</span>
-          <img src="#bandeira" alt="bandeira" />
-        </div>
-
-        <div>
-          <img src="#londres" alt="londres" />
-          <strong>londres</strong>
-          <span>Reino Unido</span>
-          <img src="#bandeira" alt="bandeira" />
-        </div>
-
-        <div>
-          <img src="#londres" alt="londres" />
-          <strong>londres</strong>
-          <span>Reino Unido</span>
-          <img src="#bandeira" alt="bandeira" />
-        </div>
-
-        <div>
-          <img src="#londres" alt="londres" />
-          <strong>londres</strong>
-          <span>Reino Unido</span>
-          <img src="#bandeira" alt="bandeira" />
-        </div>
-      </section>
-    </div>
+          <div>
+            <img src="#londres" alt="londres" />
+            <strong>londres</strong>
+            <span>Reino Unido</span>
+            <img src="#bandeira" alt="bandeira" />
+          </div>
+        </section>
+      </Box>
+    </Box>
   )
 }
