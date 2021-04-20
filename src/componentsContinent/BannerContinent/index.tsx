@@ -2,10 +2,16 @@ import { Box, Image, Text } from '@chakra-ui/react'
 
 export function BannerContinent() {
   return (
-    <Box flex="1" maxH="500px" position="relative">
+    <Box
+      w="100%"
+      h={['150px', '350px', '420px', '500px']}
+      maxH="500px"
+      position="relative"
+    >
       <Image
         w="100%"
         h="100%"
+        objectFit="cover"
         src="/images/continent_europa.png"
         alt="imagem da torre de londres, visão panoramica da cidade"
       />

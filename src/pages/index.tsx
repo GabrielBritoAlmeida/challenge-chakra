@@ -7,27 +7,32 @@ const arrMockContinent = [
   {
     title: 'Europa',
     subtitle: 'O continente mais antigo',
-    image: '/images/continentes/europa.png'
+    image: '/images/continentes/europa.png',
+    slug: 'europa'
   },
   {
     title: 'Africa',
     subtitle: 'Se apaixone pela natureza.',
-    image: '/images/continentes/africa.jpg'
+    image: '/images/continentes/africa.jpg',
+    slug: 'africa'
   },
   {
     title: 'América',
     subtitle: 'Terra de muitos povos.',
-    image: '/images/continentes/america.jpg'
+    image: '/images/continentes/america.jpg',
+    slug: 'america'
   },
   {
     title: 'Ásia',
     subtitle: 'Cultura maravilhosa.',
-    image: '/images/continentes/asia.jpg'
+    image: '/images/continentes/asia.jpg',
+    slug: 'asia'
   },
   {
     title: 'Oceania',
     subtitle: 'Se apaixone por esse clima.',
-    image: '/images/continentes/oceania.jpg'
+    image: '/images/continentes/oceania.jpg',
+    slug: 'oceania'
   }
 ]
 
