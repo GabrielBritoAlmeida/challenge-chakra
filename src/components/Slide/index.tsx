@@ -8,6 +8,7 @@ import 'swiper/swiper-bundle.min.css'
 SwiperCore.use([Navigation, Pagination, A11y, Autoplay])
 
 interface ItemContinent {
+  id: number
   title: string
   subtitle: string
   image: string

@@ -1,6 +1,11 @@
 import { Box, Image, Text } from '@chakra-ui/react'
 
-export function BannerContinent() {
+interface BannerContinentProps {
+  image: string
+  title: string
+}
+
+export function BannerContinent({ image, title }: BannerContinentProps) {
   return (
     <Box
       w="100%"
@@ -12,8 +17,8 @@ export function BannerContinent() {
         w="100%"
         h="100%"
         objectFit="cover"
-        src="/images/continent_europa.png"
-        alt="imagem da torre de londres, visão panoramica da cidade"
+        src={image}
+        alt={`Imagem de uma das cidade da ${title}`}
       />
       <Text
         as="h1"

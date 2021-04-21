@@ -1,30 +1,74 @@
 {
   "continents_images": [
     {
+      "id": 1,
       "title": "Europa",
       "subtitle": "O continente mais antigo",
       "image": "/images/continentes/europa.png",
       "slug": "europa"
     },
     {
+      "id": 2,
       "title": "Africa",
       "subtitle": "Se apaixone pela natureza.",
       "image": "/images/continentes/africa.jpg",
       "slug": "africa"
     },
     {
+      "id": 3,
       "title": "América",
       "subtitle": "Terra de muitos povos.",
       "image": "/images/continentes/america.jpg",
       "slug": "america"
     },
     {
+      "id": 4,
       "title": "Ásia",
       "subtitle": "Cultura maravilhosa.",
       "image": "/images/continentes/asia.jpg",
       "slug": "asia"
     },
     {
+      "id": 5,
+      "title": "Oceania",
+      "subtitle": "Se apaixone por esse clima.",
+      "image": "/images/continentes/oceania.jpg",
+      "slug": "oceania"
+    }
+  ],
+
+
+  "continents": [
+    {
+      "id": 1,
+      "title": "Europa",
+      "subtitle": "O continente mais antigo",
+      "image": "/images/continentes/europa.png",
+      "slug": "europa"
+    },
+    {
+      "id": 2,
+      "title": "Africa",
+      "subtitle": "Se apaixone pela natureza.",
+      "image": "/images/continentes/africa.jpg",
+      "slug": "africa"
+    },
+    {
+      "id": 3,
+      "title": "América",
+      "subtitle": "Terra de muitos povos.",
+      "image": "/images/continentes/america.jpg",
+      "slug": "america"
+    },
+    {
+      "id": 4,
+      "title": "Ásia",
+      "subtitle": "Cultura maravilhosa.",
+      "image": "/images/continentes/asia.jpg",
+      "slug": "asia"
+    },
+    {
+      "id": 5,
       "title": "Oceania",
       "subtitle": "Se apaixone por esse clima.",
       "image": "/images/continentes/oceania.jpg",
