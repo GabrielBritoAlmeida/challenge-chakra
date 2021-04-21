@@ -16,7 +16,7 @@ export function DescriptionContinent() {
       </Text>
 
       <Flex flex="1" align="center" justify="space-around" mt={['16px', '0']}>
-        <Flex flexDirection="column" align="center">
+        <Flex flexDirection="column" align="center" m="20px">
           <Text
             fontSize={['4xl', '6xl']}
             fontWeight="medium"
@@ -29,7 +29,7 @@ export function DescriptionContinent() {
           </Text>
         </Flex>
 
-        <Flex flexDirection="column" align="center">
+        <Flex flexDirection="column" align="center" m="20px">
           <Text
             fontSize={['4xl', '6xl']}
             fontWeight="medium"
@@ -42,7 +42,7 @@ export function DescriptionContinent() {
           </Text>
         </Flex>
 
-        <Flex flexDirection="column" align="center">
+        <Flex flexDirection="column" align="center" m="20px">
           <Text
             fontSize={['4xl', '6xl']}
             fontWeight="medium"
