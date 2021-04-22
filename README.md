@@ -17,4 +17,17 @@ A seguir veremos com mais detalhes o que e como precisa ser feito 🚀
 - Swiper
 - Json-server
 
+
+### Iniciando projeto
+
+```tsx
+yarn install - instalando dependências
+
+
+yarn dev - iniciando projeto com NextJs localhost:3000
+
+yarn server - iniciando mock da api localhost:3333
+
+```
+
 ### Layout base no Figma: https://www.notion.so/Desafio-01-Interface-com-Chakra-UI-d1274f7fd7f54283b9173b7fd8003cc6
