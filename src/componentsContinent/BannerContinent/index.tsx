@@ -30,7 +30,7 @@ export function BannerContinent({ image, title }: BannerContinentProps) {
         left={['40%', '10%']}
         bottom={['35%', '10%']}
       >
-        Europa
+        {title}
       </Text>
     </Box>
   )

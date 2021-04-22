@@ -1,6 +1,20 @@
 import { Flex, Text, useBreakpointValue } from '@chakra-ui/react'
 
-export function DescriptionContinent() {
+interface DescriptionContinentProps {
+  description: string
+  countries: number
+  tongues: number
+  cities: number
+  more_cities: number
+}
+
+export function DescriptionContinent({
+  cities,
+  countries,
+  description,
+  tongues,
+  more_cities
+}: DescriptionContinentProps) {
   const isWideVersion = useBreakpointValue({
     base: true,
     md: false
@@ -9,10 +23,7 @@ export function DescriptionContinent() {
   return (
     <Flex flexDirection={isWideVersion ? 'column' : 'row'}>
       <Text flex="1" fontSize={['1xl', '2xl']} lineHeight={['32px', '40px']}>
-        A Europa é, por convenção, um dos seis continentes do mundo.
-        Compreendendo a península ocidental da Eurásia, a Europa geralmente
-        divide-se da Ásia a leste pela divisória de águas dos montes Urais, o
-        rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
+        {description}
       </Text>
 
       <Flex flex="1" align="center" justify="space-around" mt={['16px', '0']}>
@@ -22,7 +33,7 @@ export function DescriptionContinent() {
             fontWeight="medium"
             color="yellow.400"
           >
-            50
+            {countries}
           </Text>
           <Text as="strong" fontSize="x-large">
             países
@@ -35,7 +46,7 @@ export function DescriptionContinent() {
             fontWeight="medium"
             color="yellow.400"
           >
-            60
+            {tongues}
           </Text>
           <Text as="strong" fontSize="x-large">
             línguas
@@ -48,10 +59,10 @@ export function DescriptionContinent() {
             fontWeight="medium"
             color="yellow.400"
           >
-            27
+            {cities}
           </Text>
           <Text as="strong" fontSize="x-large">
-            cidades +100
+            cidades +{more_cities}
           </Text>
         </Flex>
       </Flex>
